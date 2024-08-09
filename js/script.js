@@ -22,12 +22,12 @@ window.addEventListener('scroll', function() {
   const currentScrollPos = window.scrollY;
 
   if (prevScrollpos > currentScrollPos) {
-    // Scrolling up   
+     
 
     header.classList.remove('hidden');
     isHeaderHidden = false;
   } else {
-    // Scrolling down
+    
     if (currentScrollPos > 50 && !isHeaderHidden) {
       header.classList.add('hidden');
       isHeaderHidden = true;
